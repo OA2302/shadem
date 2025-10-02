@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHADEM</title>
+</head>
+<body>
+    <div class="body">
+        <div class="nav">
+            <div class="logo">
+                <img src="./assests/images/logo.png" alt="ShademLogo">
+            </div>
+            <div class="mnav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About/Our story</a></li>
+                <li><a href="#pic">Gallery</a></li>
+            </div>
+            <div class="fnav">
+                <li><a href="#rsvp"><button type="button">RSVP</button></a></li>
+                <li><a href="#map">Map</a></li>
+            </div>
+        </div>
+        <div class="intro">
+            <div>
+                <img src="./assests/images/logo.png" alt="bg-couples">
+                <button type="button"><a href="#rsvp" >RSVP</a></button>
+            </div>
+        </div>
+ <div class="about" id="about">
+    <h2>Our Story</h2>
+    <p>
+      Afalashade and Ademola first crossed paths in Lagos, and what began as a
+      simple friendship soon blossomed into a beautiful love story. Through ups
+      and downs, they’ve built a bond filled with laughter, support, and endless
+      memories. Now, they can’t wait to begin forever together — surrounded by
+      the love of family and friends.
+    </p>
+  </div>
+
+  <!-- GALLERY SECTION -->
+  <div class="gallery" id="pic">
+    <h2>Our Memories</h2>
+    <div class="pics">
+      <img src="./assests/images/img1.jpg" alt="pics" />
+      <img src="./assests/images/img1.jpg" alt="pics" />
+      <img src="./assests/images/img1.jpg" alt="pics" />
+      <img src="./assests/images/img1.jpg" alt="pics" />
+      <img src="./assests/images/img1.jpg" alt="pics" />
+      <img src="./assests/images/img1.jpg" alt="pics" />
+    </div>
+  </div>
+
+  <!-- RSVP SECTION -->
+  <div class="rsvp" id="rsvp">
+    <h2>RSVP</h2>
+    <form action="https://formspree.io/f/meorgvaw" method="POST">
+      <label for="name">Name</label> 
+      <input type="text" name="name" placeholder="John Adams" required />
+      <label for="email">Email</label>
+      <input type="email" name="email" placeholder="mymail@gmail.com" required />
+      <label for="attendance">Will you be attending?</label>
+      <select name="attendance" required>
+        <option value=""></option>
+        <option value="yes">Yes, I’ll be there </option>
+        <option value="no">Sorry, can’t make it</option>
+      </select>
+      <label for="guest">Number Of Guests</label>
+      <select name="guest">
+        <option value=""></option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+      </select>
+      <label for="message">Special Message</label>
+      <textarea
+        name="message"
+        placeholder="Leave us a message"
+        rows="4"
+      ></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+
+  <!---- IV---->
+  <div class="iv">
+    <img src="./assests/images/iv.jpeg" alt="IV"> <br>
+    <button type="button" > 
+      <a href="./assests/docs/d and s 1.pdf" download>Download Invitation Letter</a>
+    </button>
+  </div>
+
+  <!-- MAP SECTION -->
+  <div class="map" id="map">
+    <h2>Venue</h2>
+    <p>
+      Join us at <b>1236 HollyPike, Carlisle, PA 17013</b>. <br> Click the map below for directions.
+    </p>
+    <a
+      href="https://maps.app.goo.gl/uFmBWkVmhB7yxt2BA"
+      target="_blank"
+      class="map-link"
+      > <img src="./assests/images/map.png" alt="Map/Venue Location"></a
+    >
+  </div>
+  <footer><a href=""><small>OA • © 2025</small></a></footer>
+  <script src="script.js"></script>
+</body>
+</html>
