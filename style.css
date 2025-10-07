@@ -350,6 +350,20 @@ footer {
   display: none;
 }
 
+.intro img {
+  animation: fadeInDown 2s ease;
+}
+
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 
 
 @media  (max-width: 500px){
