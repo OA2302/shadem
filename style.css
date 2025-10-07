@@ -383,7 +383,7 @@ footer {
     transform: translateY(0);
   }
   50% {
-    transform: translateY(35px);
+    transform: translateY(45px);
   }
 }
 
@@ -445,7 +445,7 @@ footer {
   background: none;
   border: none;
   cursor: pointer;
-  margin-right: -12%;
+  margin-right: -15%;
   width: 15%;
 
   & img {
