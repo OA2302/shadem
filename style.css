@@ -364,6 +364,29 @@ footer {
     transform: translateY(0);
   }
 }
+.scroll-icon {
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 16px;
+  color: #ffd700;
+  text-decoration: none;
+  animation: floatUpDown 1.8s ease-in-out infinite;
+  transition: color 0.3s;
+}
+
+.scroll-icon:hover {
+  color: white;
+}
+
+@keyframes floatUpDown {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(35px);
+  }
+}
+
 
 
 @media  (max-width: 500px){
