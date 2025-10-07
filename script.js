@@ -34,3 +34,16 @@
   const img = menuBtn.querySelector('img');
   if (img) img.src = './assests/images/icon-hamburger.svg';
 }
+
+
+
+  document.querySelectorAll("img").forEach(img => {
+    
+    img.addEventListener("contextmenu", e => e.preventDefault());
+    
+    
+    img.addEventListener("touchstart", e => {
+      img.touchTimeout = setTimeout(() => e.preventDefault(), 500);
+    });
+    img.addEventListener("touchend", e => clearTimeout(img.touchTimeout));
+  });
