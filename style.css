@@ -705,12 +705,12 @@ footer a {
     }
 
     .gift-box h4 {
-        font-size: 0.6em; 
+        font-size: 0.75em; 
         margin-bottom: -10px;
     }
 
     .gift-box p {
-        font-size: 0.4em; 
+        font-size: 0.55em; 
         width: 100%;
         margin-bottom: -30px;
     }
@@ -901,8 +901,8 @@ footer a {
   }
 
   .features {
-    font-size: 0.9em; 
-    gap: 16%; 
+    font-size: 0.75em; 
+    gap: 14%; 
   }
   
   .distance {
