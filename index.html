@@ -30,6 +30,8 @@
           <li><a href="#">Home</a></li>
           <li><a href="#about">About/Our story</a></li>
           <li><a href="#pic">Gallery</a></li>
+          <li><a href="#travel">Travel</a></li>
+          <li><a href="#gifts">Gift Registry</a></li>
         </div>
         <div class="fnav">
           <li><a href="#rsvp"><button type="button">RSVP</button></a></li>
@@ -52,6 +54,11 @@
           <button type="button"><a href="#rsvp">RSVP</a></button><br>
           <a href="#about" class="scroll-icon"><i class="fa-solid fa-angle-down"></i></a>
         </div>
+      </div>
+      
+      <div class="timer">
+        <h3>We're Getting Married In</h3>
+         <div class="countdown-container" id="countdown"></div>
       </div>
 
       <div class="about" id="about">
@@ -83,14 +90,6 @@
         <form action="https://formspree.io/f/meorgvaw" method="POST">
           <label for="name">Name</label>
           <input type="text" name="name" placeholder="John Adams" required />
-
-          <label for="email">Email</label>
-          <input
-            type="email"
-            name="email"
-            placeholder="mymail@gmail.com"
-            required
-          />
 
           <label for="attendance">Will you be attending?</label>
           <select name="attendance" required>
@@ -130,6 +129,42 @@
           >
         </button>
       </div>
+      <div class="travel" id="travel">
+  <h2>Travel</h2>
+  <p>Here are some nearby places to stay and dine around <b>Carlisle</b>.</p>
+
+  <h3>Hotels</h3>
+  <div id="hotel-list" class="listings">
+  </div>
+
+  <h3>Restaurants</h3>
+  <div id="restaurant-list" class="listings">
+    
+
+  </div>
+</div>
+<div class="gifts" id="gifts">
+        <h2>Gift Registry</h2>
+        <p>Your presence at our wedding is the greatest gift of all. However, if you wish to honor us with a gift, we've made it easy for you.</p>
+        <div class="registry-options">
+          <a href="#" class="gift-box">
+            <i class="fa-solid fa-gift"></i>
+            <h4>Amazon</h4>
+            <p>Shop our registry</p>
+          </a>
+          <a href="#" class="gift-box">
+            <i class="fa-solid fa-gift"></i>
+            <h4>Target</h4>
+            <p>View our wishes</p>
+          </a>
+          <a href="#" class="gift-box">
+            <i class="fa-solid fa-mug-hot"></i>
+            <h4>Cash App</h4>
+            <p>Send a monetary gift</p>
+          </a>
+        </div>
+      </div>
+
 
     
       <div class="map" id="map">
