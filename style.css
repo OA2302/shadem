@@ -676,8 +676,8 @@ footer a {
     }
 
     .gifts {
-        padding: 40px 10px;
-        
+        padding: 0px 0px;
+        gap: 1px;
     }
 
      .registry-options {
@@ -690,7 +690,7 @@ footer a {
        display: grid;
         width: 100%; 
         min-width: 90px;
-        height: 150px;
+        height: 170px;
         padding-top: 0;
         padding-bottom: 20px;
         gap: 0;
@@ -705,12 +705,12 @@ footer a {
     }
 
     .gift-box h4 {
-        font-size: 0.9em; 
+        font-size: 0.6em; 
         margin-bottom: -10px;
     }
 
     .gift-box p {
-        font-size: 0.7em; 
+        font-size: 0.4em; 
         width: 100%;
         margin-bottom: -30px;
     }
@@ -881,5 +881,57 @@ footer a {
       transform: translateY(0);
     }
   }
+.travel {
+    padding: 40px 10px;
+  }
 
+  .listings {
+    width: 95%; 
+    max-width: none;
+  }
+
+  .listing {
+    padding: 15px; 
+    min-height: 200px; 
+  }
+
+  .listing-info h4 {
+    font-size: 1.2em; 
+    margin-bottom: 15px;
+  }
+
+  .features {
+    font-size: 0.9em; 
+    gap: 16%; 
+  }
+  
+  .distance {
+    font-size: 0.9em;
+    margin-bottom: 25px; 
+  }
+
+  .book-btn {
+    bottom: -0px; 
+    right: 15px;
+    min-width: 100px; 
+    height: 35px;
+    padding: 5px 10px;
+  }
+  
+  .book-btn a {
+    font-size: 0.9em;
+  }
+
+  .controls {
+    top: 30%; 
+    }
+  
+  .controls button {
+    width: 30px; 
+    height: 30px;
+  }
+  
+  .controls button i {
+    font-size: 15px; 
+  }
 }
