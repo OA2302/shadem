@@ -225,9 +225,6 @@
   transition: transform 0.3s;
 }
 
-.gallery .pics img:hover {
-  transform: scale(1.05);
-}
 
 .rsvp {
   padding: 80px 20px;
