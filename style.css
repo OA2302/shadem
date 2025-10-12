@@ -676,19 +676,19 @@ footer a {
     }
 
     .gifts {
+      width: 100%;
         padding: 0px 0px;
         gap: 1px;
     }
 
      .registry-options {
-        flex-direction: row; 
-        justify-content: space-around; 
-        gap: 10px; 
+        flex-direction: row;  
+        gap: 0px; 
     }
     
     .gift-box {
        display: grid;
-        width: 100%; 
+        width: 80%; 
         min-width: 90px;
         height: 170px;
         padding-top: 0;
@@ -705,12 +705,12 @@ footer a {
     }
 
     .gift-box h4 {
-        font-size: 0.75em; 
+        font-size: 0.9em; 
         margin-bottom: -10px;
     }
 
     .gift-box p {
-        font-size: 0.55em; 
+        font-size: 0.7em; 
         width: 100%;
         margin-bottom: -30px;
     }
@@ -902,7 +902,7 @@ footer a {
 
   .features {
     font-size: 0.75em; 
-    gap: 14%; 
+    gap: 12%; 
   }
   
   .distance {
