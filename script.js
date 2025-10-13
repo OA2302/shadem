@@ -216,7 +216,7 @@ function setupSlider(containerId) {
 renderListings(hotels, "hotel-list");
 renderListings(restaurants, "restaurant-list");
 
-const countDownDate = new Date("Dec 14, 2025 13:00:00").getTime();
+const countDownDate = new Date("Dec 14, 2025 14:00:00").getTime();
 
 const countdownContainer = document.getElementById('countdown');
 
