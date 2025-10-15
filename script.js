@@ -83,8 +83,43 @@ const hotels = [
       { icon: "fa-parking", text: "Free parking" },
       { icon: "fa-fan", text: "Air-conditioned" },
     ],
-    distance: "15 mins drive to venue (3 miles)",
+    distance: "9 mins drive to venue (3 miles)",
     link: "https://www.wyndhamhotels.com/microtel/carlisle-pennsylvania/microtel-inn-and-suites-by-wyndham-carlisle/overview?CID=LC:5b3ss9kd80xe5ox:49010&iata=00093796"
+  },
+  {
+    name: "MainStay Suites Carlisle - Harrisburg",
+    img: "https://lh3.googleusercontent.com/p/AF1QipM_jjd80_59g2saTTWznWkvGJqyA-Mc84tNPK5P=w262-h104-p-k-no",
+    features: [
+      { icon: "fa-wifi", text: "Free WiFi" },
+      { icon: "fa-mug-hot", text: "Free Breakfast" },
+      { icon: "fa-parking", text: "Free parking" },
+      { icon: "fa-fan", text: "Air-conditioned" },
+    ],
+    distance: "8 mins drive to venue (3.6 miles)",
+    link: "https://www.choicehotels.com/pennsylvania/carlisle/mainstay-hotels/pa887?mc=llgoxxpx"
+  },
+  {
+    name: "Best Western Carlisle South",
+    img: "https://lh3.googleusercontent.com/p/AF1QipPa7t02MRH4HfK6uS8a0fgUAfEk42bYnuBQVcL7=w408-h260-k-no",
+    features: [
+      { icon: "fa-wifi", text: "Free WiFi" },
+      { icon: "fa-mug-hot", text: "Free Breakfast" },
+      { icon: "fa-parking", text: "Free parking" },
+      { icon: "fa-fan", text: "Air-conditioned" },
+    ],
+    distance: "7 mins drive to venue (1.8 miles)",
+    link: "https://www.bestwestern.com/en_US/book/hotel-rooms.39154.html?iata=00171880&ssob=BLBWI0004G&cid=BLBWI0004G:google:gmb:39154"
+  },
+  {
+    name: "Thornwald Mansion",
+    img: "https://lh3.googleusercontent.com/p/AF1QipNrVczhvQ2QEUmVpJT5XulKGNFZjQW6cX49pKIv=w408-h306-k-no",
+    features: [
+      { icon: "fa-wifi", text: "Free WiFi" },
+      { icon: "fa-parking", text: "Free parking" },
+      { icon: "fa-fan", text: "Air-conditioned" },
+    ],
+    distance: "5 mins drive to venue (1.3 miles)",
+    link: "http://www.thornwaldmansion.com/"
   }
 ];
 
@@ -112,6 +147,30 @@ const restaurants = [
     ],
     distance: "2 mins drive to venue (0.5 miles)",
     link: "https://www.crackerbarrel.com/menu/?utm_source=google&utm_medium=maps&utm_campaign=menu"
+  },
+  {
+    name: "Fay's Country Kitchen",
+    img: "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrUx8lJfavqP8tXuoP-_157Y4uaq42p2fHqXqhkN7Nk-BUVzkG-qlKE-GsYiLIA52TbnaGAaFIvTKDyaDXMuj3y-IxrPtrxznISaUUKi9eAq-TCjSXsVslalOP3W5ufI_30eLc=w408-h306-k-no",
+    features: [
+      { icon: "fa-utensils", text: "Dine-in" },
+      { icon: "fa-bag-shopping", text: "Takeout" },
+      { icon: "fa-wifi", text: "Free WiFi" },
+      { icon: "fa-bolt", text: "Fast Service" },
+    ],
+    distance: "4 mins drive to venue (1.2 miles)",
+    link: "tel:+17172435510"
+  },
+  {
+    name: "Momma Spriggs Restaurant",
+    img: "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nr1SQ7dK3kDBppapB-o9wJJtj2ergWkmlGQiIzPLMoccR9Tm-XFgDRT_zRHLGABOL_OC_KK43p4UszBfdpou76-HDQ5-4ycBVUkvN08PS_JFaFpOHlnqtrwL0ARCQ4u0WCEfSuT=w408-h306-k-no",
+    features: [
+      { icon: "fa-utensils", text: "Dine-in" },
+      { icon: "fa-bag-shopping", text: "Takeout" },
+      { icon: "fa-car", text: "Free Parking" },
+      { icon: "fa-chair", text: "Free Wifi" },
+    ],
+    distance: "6 mins drive to venue (2.7 miles)",
+    link: "https://www.mommaspriggs.com/"
   }
 ];
 
