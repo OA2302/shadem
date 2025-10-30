@@ -11,6 +11,7 @@
   letter-spacing: 1.1px;
   color: #333;
   overflow-x: hidden;
+  animation: fadeInDown 1.2s ease;
 }
 
 .nav {
@@ -146,11 +147,11 @@
 
 @keyframes fadeInDown {
   0% {
-    opacity: 0;
-    transform: translateY(-30px);
+    opacity: 1;
+    transform: translateY(-50px);
   }
   100% {
-    opacity: 1;
+    opacity: 4;
     transform: translateY(0);
   }
 }
