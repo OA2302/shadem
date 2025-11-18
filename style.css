@@ -464,7 +464,8 @@
 }
 
 .book-btn:hover {
-  background: #a77f57;
+  border: solid 1px #ffd700;
+  background: #f1f1f1;
 }
 
 .controls {
@@ -716,7 +717,7 @@ footer a {
 
   .nav {
     padding: 0 20px;
-    height: 65px;
+    height: 70px;
     background: rgba(0, 0, 0, 0.4);
     backdrop-filter: blur(10px); 
   }
@@ -732,8 +733,8 @@ footer a {
   }
   
   .logo2 img {
-    height: 50px;
-    width: 50px; 
+    height: 65px;
+    width: 90%; 
     border-radius: 50%;
   }
   
