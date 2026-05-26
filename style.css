@@ -529,12 +529,12 @@ footer a {
 .timer {
   padding: 50px 20px;
   text-align: center;
-  background: #fdfaf6; /* Matches the body background */
+  background: #fdfaf6; 
 }
 
 .timer h3 {
   font-size: 1.25em;
-  color: #b22222; /* Matches the section title color */
+  color: #b22222; 
   margin-bottom: 30px;
   font-weight: 400;
 }
@@ -542,7 +542,7 @@ footer a {
 .countdown-container {
   display: flex;
   justify-content: center;
-  gap: 20px; /* Space between the timer boxes */
+  gap: 20px; 
   max-width: 800px;
   margin: 0 auto;
 }
